@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+
 import tailwind from "@astrojs/tailwind";
 import alpinejs from "@astrojs/alpinejs";
 
@@ -6,6 +7,6 @@ import alpinejs from "@astrojs/alpinejs";
 export default defineConfig({
   integrations: [tailwind(), alpinejs()],
 
-  site: 'https://bet-mates.github.io',
+  site: 'https://www.betmates.app',
   //base: '/landing-page',
 });
