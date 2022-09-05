@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  caddy:
+    image: caddy:latest
+
+    restart: "no"
+
+    ports:
+      - "8080:80"
+      # - "443:443"
+      # - "443:443/udp"
+
+    volumes:
+      # To override the Caddyfile:
+      # - Caddyfile:/etc/caddy/Caddyfile
+
+      # Site location:
+      - ./dist:/usr/share/caddy/
+
+      # The data volume must persists since it stores important info
+      - caddy_data:/data
+
+      # this can be persisted or not
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
