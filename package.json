@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "astro": "^1.2.3"
+  },
+  "dependencies": {
+    "@astrojs/tailwind": "^1.0.1"
   }
 }
