@@ -24,6 +24,6 @@ To run this project clone the repository and change to its directory.
 
 ### How to update:
 
-* just run `pnpm update`.
+* just run `pnpm update`. It'll update the Astro framework and it's dependencies.
 ---
 &copy; bet-mates 2022
