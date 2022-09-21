@@ -1,4 +1,4 @@
-# Welcome to Bet Mates Project
+# BetMates Landing Page
 
 ![Bet Mates Logo](/public/logo.png)
 
