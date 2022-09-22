@@ -14,7 +14,7 @@ To run this project clone the repository and change to its directory.
 
 ### How to run:
 
-1. run `pnpm install` to install the dependncies.
+1. run `pnpm install` to install the dependencies.
 2. run `pnpm dev` and go to `http://localhost:3000` on your browser.
 
 ### How to build:
