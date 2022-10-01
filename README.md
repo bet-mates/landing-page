@@ -1,5 +1,7 @@
 # BetMates Landing Page
 
+![build](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg?branch=main)
+
 ![Bet Mates Logo](/public/logo.png)
 
 **Organize championships with your friends. Bet. Win!**
