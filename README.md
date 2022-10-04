@@ -1,6 +1,7 @@
 # BetMates Landing Page
 
-![build](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg?branch=main)
+
+[![build](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg)](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml)
 
 ![Bet Mates Logo](/public/logo.png)
 
