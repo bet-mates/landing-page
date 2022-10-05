@@ -1,13 +1,20 @@
-# BetMates Landing Page
+<p align="center">
+  <img src="./public/logo.png" alt="BetMates logo">
+</p>
 
+<p>
+  <h3 align="center"><b>Organize championships with your friends. Bet. Win!</b></h3>
+</p>
 
-[![build](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg)](https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml)
-
-![Bet Mates Logo](/public/logo.png)
-
-**Organize championships with your friends. Bet. Win!**
+<p align="center">
+  <a href="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml">
+    <img src="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg">
+  </a>
+</p>
 
 ---
+# BetMates Landing Page
+
 This project uses [Astro](https://astro.build) framework.
 You can find the docs on the Astro site.
 
