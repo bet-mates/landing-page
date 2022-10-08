@@ -17,19 +17,25 @@ permissions:
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout your repository using git
+      - name: Checkout repository
         uses: actions/checkout@v3
-      - name: Install, build, and upload your site
+      - name: Install, build and upload
         uses: withastro/action@v0
+        with:
+          node-version: 18
 
   deploy:
+    name: Deploy
     needs: build
     runs-on: ubuntu-latest
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
