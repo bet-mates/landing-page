@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/logo.png" alt="BetMates logo">
+  <img src="./public/logo.svg" width="450" alt="BetMates logo">
 </p>
 
 <p>
