@@ -11,7 +11,7 @@
     <img alt="GitHub Actions" src="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg">
   </a>
   <a href="https://github.com/bet-mates/landing-page/issues">
-    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/bet-mates/landing-page">
+    <img alt="GitHub issues" src="https://img.shields.io/github/issues/bet-mates/landing-page?color=%2332CA55">
   </a>
 </p>
 
