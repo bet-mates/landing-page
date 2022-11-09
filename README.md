@@ -8,7 +8,10 @@
 
 <p align="center">
   <a href="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml">
-    <img src="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg">
+    <img alt="GitHub Actions" src="https://github.com/bet-mates/landing-page/actions/workflows/deploy.yml/badge.svg">
+  </a>
+  <a href="https://github.com/bet-mates/landing-page/issues">
+    <img alt="GitHub Issues" src="https://img.shields.io/github/issues/bet-mates/landing-page">
   </a>
 </p>
 
