@@ -7,10 +7,14 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "astro": "^1.6.5"
+    "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
+    "astro": "^1.6.5",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "@astrojs/tailwind": "^2.1.2",
