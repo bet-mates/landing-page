@@ -4,7 +4,7 @@ specifiers:
   '@astrojs/tailwind': ^2.1.2
   '@commitlint/cli': ^17.2.0
   '@commitlint/config-conventional': ^17.2.0
-  astro: ^1.6.7
+  astro: ^1.6.8
   husky: ^8.0.2
   tailwindcss: ^3.2.4
 
@@ -15,7 +15,7 @@ dependencies:
 devDependencies:
   '@commitlint/cli': 17.2.0
   '@commitlint/config-conventional': 17.2.0
-  astro: 1.6.7
+  astro: 1.6.8
   husky: 8.0.2
 
 packages:
@@ -28,8 +28,8 @@ packages:
       '@jridgewell/trace-mapping': 0.3.17
     dev: true
 
-  /@astrojs/compiler/0.29.13:
-    resolution: {integrity: sha512-C9+91vsWiJspj/VkVp6UtSIrJGuj/Aia1KCEDzg2Ge27uSDCOl1QlUQuAAnAbGpFBF71uaYOUZOPCbptQeGbdQ==}
+  /@astrojs/compiler/0.29.15:
+    resolution: {integrity: sha512-vicPD8oOPNkcFZvz71Uz/nJcadovurUQ3L0yMZNPb6Nn6T1nHhlSHt5nAKaurB2pYU9DrxOFWZS2/RdV+JsWmQ==}
     dev: true
 
   /@astrojs/language-server/0.28.3:
@@ -117,7 +117,7 @@ packages:
     resolution: {integrity: sha512-SJVfZHp00f8VZsT1fsx1+6acJGUNt/84xZytV5znPzzNE8RXjlE0rv03llgTsEeUHYZc6uJah91jNojS7RldFg==}
     engines: {node: ^14.18.0 || >=16.12.0}
     dependencies:
-      ci-info: 3.5.0
+      ci-info: 3.6.1
       debug: 4.3.4
       dlv: 1.1.3
       dset: 3.1.2
@@ -397,7 +397,7 @@ packages:
     engines: {node: '>=v14'}
     dependencies:
       '@commitlint/types': 17.0.0
-      ajv: 8.11.0
+      ajv: 8.11.2
     dev: true
 
   /@commitlint/ensure/17.0.0:
@@ -449,8 +449,8 @@ packages:
       '@commitlint/types': 17.0.0
       '@types/node': 14.18.33
       chalk: 4.1.2
-      cosmiconfig: 7.0.1
-      cosmiconfig-typescript-loader: 4.2.0_gbbg4brkmakf6m5nuj7scelzny
+      cosmiconfig: 7.1.0
+      cosmiconfig-typescript-loader: 4.2.0_zhrz2lclwdmp54iaqottwiuipu
       lodash: 4.17.21
       resolve-from: 5.0.0
       ts-node: 10.9.1_yodorn5kzjgomblrsstrk2spaa
@@ -867,8 +867,8 @@ packages:
     hasBin: true
     dev: true
 
-  /ajv/8.11.0:
-    resolution: {integrity: sha512-wGgprdCvMalC0BztXvitD2hC04YffAvtsUn93JbGXYLAtCUO4xd17mCCZQxUOItiBwZvJScWo8NIvQMQ71rdpg==}
+  /ajv/8.11.2:
+    resolution: {integrity: sha512-E4bfmKAhGiSTvMfL1Myyycaub+cUEU2/IvpylXkUu7CHBkBj1f/ikdzbD7YQ6FKUbixDxeYvB/xY4fvyroDlQg==}
     dependencies:
       fast-deep-equal: 3.1.3
       json-schema-traverse: 1.0.0
@@ -953,12 +953,12 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /astro/1.6.7:
-    resolution: {integrity: sha512-xx910blM5qfSMyesmVmuhXqKMIOa2WL/WTSfYv84pB9JocgtAfGKlmS1HZNqWd0h9YLreYbGRzXhbtv2Qfd8vw==}
+  /astro/1.6.8:
+    resolution: {integrity: sha512-+kOj8s2fguCFCim9he6fl9iugIHrmAl7BmfNXdTdC9zU30VYV162HF5eRJyMlY5hGuDn3GvAoaNSzCMnybVsFQ==}
     engines: {node: ^14.18.0 || >=16.12.0, npm: '>=6.14.0'}
     hasBin: true
     dependencies:
-      '@astrojs/compiler': 0.29.13
+      '@astrojs/compiler': 0.29.15
       '@astrojs/language-server': 0.28.3
       '@astrojs/markdown-remark': 1.1.3
       '@astrojs/telemetry': 1.0.1
@@ -975,7 +975,7 @@ packages:
       '@types/html-escaper': 3.0.0
       '@types/yargs-parser': 21.0.0
       boxen: 6.2.1
-      ci-info: 3.5.0
+      ci-info: 3.6.1
       common-ancestor-path: 1.0.1
       cookie: 0.5.0
       debug: 4.3.4
@@ -1016,7 +1016,7 @@ packages:
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       vite: 3.2.3
-      vitefu: 0.1.1_vite@3.2.3
+      vitefu: 0.2.1_vite@3.2.3
       yargs-parser: 21.1.1
       zod: 3.19.1
     transitivePeerDependencies:
@@ -1197,8 +1197,9 @@ packages:
       fsevents: 2.3.2
     dev: false
 
-  /ci-info/3.5.0:
-    resolution: {integrity: sha512-yH4RezKOGlOhxkmhbeNuC4eYZKAUsEaGtBuBzDDP1eFUKiccDWzBABxBfOx31IDwDIXMTxWuwAxUGModvkbuVw==}
+  /ci-info/3.6.1:
+    resolution: {integrity: sha512-up5ggbaDqOqJ4UqLKZ2naVkyqSJQgJi5lwD6b6mM748ysrghDBX0bx/qJTUHzw7zu6Mq4gycviSF5hJnwceD8w==}
+    engines: {node: '>=8'}
     dev: true
 
   /cli-boxes/3.0.0:
@@ -1252,8 +1253,8 @@ packages:
   /color-name/1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  /comma-separated-tokens/2.0.2:
-    resolution: {integrity: sha512-G5yTt3KQN4Yn7Yk4ed73hlZ1evrFKXeUW3086p3PRFNp7m2vIjI6Pg+Kgb+oyzhd9F2qdcoj67+y3SdxL5XWsg==}
+  /comma-separated-tokens/2.0.3:
+    resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==}
     dev: true
 
   /common-ancestor-path/1.0.1:
@@ -1306,7 +1307,7 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /cosmiconfig-typescript-loader/4.2.0_gbbg4brkmakf6m5nuj7scelzny:
+  /cosmiconfig-typescript-loader/4.2.0_zhrz2lclwdmp54iaqottwiuipu:
     resolution: {integrity: sha512-NkANeMnaHrlaSSlpKGyvn2R4rqUDeE/9E5YHx+b4nwo0R8dZyAqcih8/gxpCZvqWP9Vf6xuLpMSzSgdVEIM78g==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -1316,13 +1317,13 @@ packages:
       typescript: '>=3'
     dependencies:
       '@types/node': 14.18.33
-      cosmiconfig: 7.0.1
+      cosmiconfig: 7.1.0
       ts-node: 10.9.1_yodorn5kzjgomblrsstrk2spaa
       typescript: 4.8.4
     dev: true
 
-  /cosmiconfig/7.0.1:
-    resolution: {integrity: sha512-a1YWNUV2HwGimB7dU2s1wUMurNKjpx60HxBB6xUM8Re+2s1g1IIfJvFR0/iCF+XHdE0GMTKTuLR32UQff4TEyQ==}
+  /cosmiconfig/7.1.0:
+    resolution: {integrity: sha512-AdmX6xUzdNASswsFtmwSt7Vj8po9IuqXm0UXz7QKPuEUmPB4XyjGfaAr2PSuELMwkRMVH1EpIkX5bTZGRB3eCA==}
     engines: {node: '>=10'}
     dependencies:
       '@types/parse-json': 4.0.0
@@ -2242,9 +2243,9 @@ packages:
     resolution: {integrity: sha512-dhIVGoKCQVewFi+vz3Vt567E4ejMppS1haBRL6TEmeLeJVB1i/FJIIg/e6s1Bwn0g5qtYojHEKvyGA+OZuyifw==}
     dependencies:
       '@types/unist': 2.0.6
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
       style-to-object: 0.3.0
       unist-util-is: 5.1.1
       web-namespaces: 2.0.1
@@ -2289,7 +2290,7 @@ packages:
       unist-util-visit: 4.1.1
       vfile: 5.3.5
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /hast-util-to-html/8.0.3:
@@ -2297,12 +2298,12 @@ packages:
     dependencies:
       '@types/hast': 2.3.4
       ccount: 2.0.1
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       hast-util-is-element: 2.1.2
       hast-util-whitespace: 2.0.0
       html-void-elements: 2.0.1
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
       stringify-entities: 4.0.3
       unist-util-is: 5.1.1
     dev: true
@@ -2315,7 +2316,7 @@ packages:
       hast-to-hyperscript: 10.0.1
       property-information: 6.1.1
       web-namespaces: 2.0.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /hast-util-whitespace/2.0.0:
@@ -2326,10 +2327,10 @@ packages:
     resolution: {integrity: sha512-uBjaTTLN0MkCZxY/R2fWUOcu7FRtUVzKRO5P/RAfgsu3yFiMB1JWCO4AjeVkgHxAira1f2UecHK5WfS9QurlWA==}
     dependencies:
       '@types/hast': 2.3.4
-      comma-separated-tokens: 2.0.2
+      comma-separated-tokens: 2.0.3
       hast-util-parse-selector: 3.1.0
       property-information: 6.1.1
-      space-separated-tokens: 2.0.1
+      space-separated-tokens: 2.0.2
     dev: true
 
   /hosted-git-info/2.8.9:
@@ -2830,7 +2831,7 @@ packages:
       mdast-util-to-string: 3.1.0
       micromark-util-decode-string: 1.0.2
       unist-util-visit: 4.1.1
-      zwitch: 2.0.2
+      zwitch: 2.0.3
     dev: true
 
   /mdast-util-to-string/3.1.0:
@@ -3539,7 +3540,7 @@ packages:
     resolution: {integrity: sha512-ehCUx7MqHWvkHwUmxxAWLsL35pFaCTM5YXQ8xjG/1W6dY2yBhvEks+2aCfjeI5zmMrZNCXkiMQtpznSlLSLrxw==}
     engines: {node: ^14.15.0 || >=16.0.0, npm: '>=6.14.0'}
     dependencies:
-      '@astrojs/compiler': 0.29.13
+      '@astrojs/compiler': 0.29.15
       prettier: 2.7.1
       sass-formatter: 0.7.5
       synckit: 0.8.4
@@ -3771,7 +3772,7 @@ packages:
     dependencies:
       '@types/nlcst': 1.0.0
       parse-latin: 5.0.1
-      unherit: 3.0.0
+      unherit: 3.0.1
       unified: 10.1.2
     dev: true
 
@@ -3956,8 +3957,8 @@ packages:
     resolution: {integrity: sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==}
     dev: true
 
-  /space-separated-tokens/2.0.1:
-    resolution: {integrity: sha512-ekwEbFp5aqSPKaqeY1PGrlGQxPNaq+Cnx4+bE2D8sciBQrHpbwoBbawqTN2+6jPs9IdWxxiUcN0K2pkczD3zmw==}
+  /space-separated-tokens/2.0.2:
+    resolution: {integrity: sha512-PEGlAwrG8yXGXRjW32fGbg66JAlOAwbObuqVoJpv/mRgoWDQfgH1wDPvtzWyUSNAXBGSk8h755YDbbcEy3SH2Q==}
     dev: true
 
   /spdx-correct/3.1.1:
@@ -4285,8 +4286,8 @@ packages:
     hasBin: true
     dev: true
 
-  /unherit/3.0.0:
-    resolution: {integrity: sha512-UmvIQZGEc9qdLIQ8mv8/61n6PiMgfbOoASPKHpCvII5srShCQSa6jSjBjlZOR4bxt2XnT6uo6csmPKRi+zQ0Jg==}
+  /unherit/3.0.1:
+    resolution: {integrity: sha512-akOOQ/Yln8a2sgcLj4U0Jmx0R5jpIg2IUyRrWOzmEbjBtGzBdHtSeFKgoEcoH4KYIG/Pb8GQ/BwtYm0GCq1Sqg==}
     dev: true
 
   /unified/10.1.2:
@@ -4476,8 +4477,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitefu/0.1.1_vite@3.2.3:
-    resolution: {integrity: sha512-HClD14fjMJ+NQgXBqT3dC3RdO/+Chayil+cCPYZKY3kT+KcJomKzrdgzfCHJkIL2L0OAY+VPvrSW615iPtc7ag==}
+  /vitefu/0.2.1_vite@3.2.3:
+    resolution: {integrity: sha512-clkvXTAeUf+XQKm3bhWUhT4pye+3acm6YCTGaWhxxIvZZ/QjnA3JA8Zud+z/mO5y5XYvJJhevs5Sjkv/FI8nRw==}
     peerDependencies:
       vite: ^3.0.0
     peerDependenciesMeta:
@@ -4668,6 +4669,6 @@ packages:
     resolution: {integrity: sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==}
     dev: true
 
-  /zwitch/2.0.2:
-    resolution: {integrity: sha512-JZxotl7SxAJH0j7dN4pxsTV6ZLXoLdGME+PsjkL/DaBrVryK9kTGq06GfKrwcSOqypP+fdXGoCHE36b99fWVoA==}
+  /zwitch/2.0.3:
+    resolution: {integrity: sha512-dn/sDAIuRCsXGnBD4P+SA6nv7Y54HQZjC4SPL8PToU3714zu7wSEc1129D/i0+vvjRfOlFo4Zqrpwj+Zhcykhw==}
     dev: true
