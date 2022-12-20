@@ -13,7 +13,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
-    "astro": "^1.7.1",
+    "astro": "^1.7.2",
     "husky": "^8.0.2"
   },
   "dependencies": {
